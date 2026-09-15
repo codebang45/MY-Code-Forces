@@ -1,6 +1,4 @@
-
 import java.util.*;
-
 class Halloumi_Boxes {
     public static void main(String[] args) {
 
