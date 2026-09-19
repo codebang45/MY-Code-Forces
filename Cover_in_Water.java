@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*; //
 
 public class Cover_in_Water {
     public static void main(String[] args) {
@@ -6,25 +6,17 @@ public class Cover_in_Water {
 
         int t = sc.nextInt();
 
-        while (t-- > 0) {
+        while (t > 0) {
             int n = sc.nextInt();
+
             String s = sc.next();
 
             int ans = 0;
-            int count = 0;
+            int length = 0;
 
-            for (int i = 0; i < n; i++) {
-                if (s.charAt(i) == '.') {
-                    count++;
-                } else {
-                    ans += Math.min(count, 2);
-                    count = 0;
-                }
+            for(int i =0; i<n; i++){
+
             }
-
-            ans += Math.min(count, 2);
-
-            System.out.println(ans);
         }
     }
 }
